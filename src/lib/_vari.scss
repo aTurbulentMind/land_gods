@@ -1,0 +1,44 @@
+// spacing
+$pad_sm: 0.25rem !default;
+$pad: 0.75rem !default;
+$pad_xl: 1.5rem !default;
+$pad_xxl: 2rem !default;
+
+$marg: 0.75rem !default;
+$marg_xl: 1.5rem !default;
+$marg_xxl: 2rem !default;
+$marg_xxxl: 3rem !default;
+
+//block spacing
+$full_marg: 10% 15%;
+$half_marg:15% 8%;
+
+// borders
+$thick: 1px !default;
+$rad: 3px !default;
+$bord: 1px solid $backTwo;
+
+// shadow
+$box-shadow: 1px 3px -5px hsl(40, 20%, 3%) !default;
+$mainShadow:2px 2px 12px 2px #07000054;
+$text_shadow:2px 2px 2px $backMain;
+
+//opacity
+$op-t:0.25;
+$op-m:0.5;
+$op-s:0.75;
+
+// font sizes
+$f-xsm:0.25rem !default;
+$f-sm: 0.75rem !default;
+$font: 1rem !default;
+$f-lg: 1.5rem !default;
+$f-xl: 2rem !default;
+$f-xxl: 3rem !default;
+$f-xxxl: 5rem !default;
+
+//font stack
+$mainFont:'Poppins',
+sans-serif;
+$secondaryFont: 'Rubik',
+sans-serif;
