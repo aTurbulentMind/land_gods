@@ -1,5 +1,5 @@
 <div class="footer">
-	<h1>Land<br /> Gods</h1>
+	<h1>Toms <br /> Lawn & Bed Care</h1>
 	<footBox>
 		<ul
 			style="grid-row: 2;

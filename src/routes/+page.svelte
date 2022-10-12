@@ -154,7 +154,7 @@
 	//entry banner
 
 	.art-banner {
-		height: 100vh;
+		height: 105vh;
 		display: grid;
 		background: $backMain;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -168,7 +168,7 @@
 	}
 
 	.art-banner-bg {
-		background-image: url(/img/LLDProfPic.png);
+		background-image: url(/img/one.jpg);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
@@ -188,6 +188,7 @@
 		font-weight: bold;
 		font-family: $secondaryFont;
 		letter-spacing: 3px;
+		text-shadow: $text_shadow;
 		grid-column: 2 / span 2;
 		grid-row: 2 /* no need to type one*/;
 		align-self: center;
@@ -200,6 +201,7 @@
 		font-weight: bold;
 		font-family: $mainFont;
 		letter-spacing: 3px;
+		text-shadow: $text_shadow;
 		grid-column: 2 / span 2;
 		grid-row: 4 /* no need to type one*/;
 		align-self: center;
@@ -211,6 +213,7 @@
 		position: relative;
 		margin: 0 20%;
 		z-index: 950;
+		text-shadow: none;
 	}
 
 	.grid {

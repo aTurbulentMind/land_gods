@@ -3,19 +3,21 @@
 
 	<div class="gallery">
 		<picture>
-			<img src="img/orangplosion.png" alt="" />
+			<img src="img/two.jpg" alt="" />
 		</picture>
 
-		<picture> <img src="img/orangplosion.png" alt="" /> </picture>
+		<picture> <img src="img/three.jpg" alt="" /> </picture>
 
 		<picture>
-			<img src="img/orangplosion.png" alt="" />
+			<img src="img/four.jpg" alt="" />
 			<!--	<p>a bunch of nice words</p>-->
 		</picture>
 
-		<picture> <img src="img/orangplosion.png" alt="" /> </picture>
+		<picture> <img src="img/five.jpg" alt="" /> </picture>
 
-		<picture> <img src="img/orangplosion.png" alt="" /> </picture>
+		<picture> <img src="img/six.jpg" alt="" /> </picture>
+
+		<picture> <img src="img/seven.jpg" alt="" /> </picture>
 	</div>
 </body>
 

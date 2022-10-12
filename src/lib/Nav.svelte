@@ -1,5 +1,6 @@
 <nav>
 	<ul>
+		<li><a class="h_home" href="/">HOME</a></li>
 		<li>
 			<a href="/"
 				><svg class="mower" viewBox="0 0 726 432" fill="none" xmlns="http://www.w3.org/2000/svg">
