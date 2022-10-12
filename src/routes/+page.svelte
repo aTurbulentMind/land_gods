@@ -3,7 +3,7 @@
 
 	<div class="art-banner" id="art-banner">
 		<div class="art-banner-bg" />
-		<div class="banner-text">Landscape Gods</div>
+		<div class="banner-text">Toms <br /> Lawn & Bed Care</div>
 		<!--	<div class="banner-face"><img src="img/porffy.png/" alt="my face" /></div>-->
 		<div class="banner-phrase">
 			For a free estimate:
