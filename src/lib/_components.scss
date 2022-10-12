@@ -23,14 +23,15 @@
 }
 
 @mixin butts() {
-    background: $backTre;
+    background: rgba(15, 17, 15, 0.616);
     color: $textMain;
     transition: all $tSpeed ease-in-out;
+    font-weight: 100;
 
     &:hover {
         transition: all $tSpeed ease-in-out;
-        background: $extra;
-        color: $textMain;
+        background: $grabber;
+        color: $backMain;
         box-shadow: $mainShadow;
         transform: scale(1.1);
         cursor: pointer;
@@ -55,14 +56,6 @@ $tSpeed: 0.3s;
     padding: $pad_sm;
     margin: $marg;
     z-index: 10;
-
-    a {
-        color: $backMain;
-
-        &:hover {
-            color: $textMain;
-        }
-    }
 }
 
 .butTwo {
@@ -93,8 +86,7 @@ $tSpeed: 0.3s;
     border: $bord;
     box-shadow: $mainShadow;
     border-radius: $rad;
-    background: $backTre;
-    color: $backMain;
+    background: $backHallow;
 
     .card-title {
         font-size: $font;
@@ -114,11 +106,13 @@ $tSpeed: 0.3s;
 //grid block
 .grid {
     @include grid;
+    margin-top: -5%;
+    gap: $marg_xxl;
     align-items: center;
 
     .card {
         padding: 20px;
-        margin: 0 10%;
+        margin: 0 12%;
     }
 
     svg {
@@ -154,10 +148,9 @@ $tSpeed: 0.3s;
 //form
 container {
     letter-spacing: 1.5px;
-    box-sizing: border-box;
 
     h2 {
-        color: $backMain;
+        color: $textMain;
         font-size: $font;
         text-align: center;
         grid-column: 1;
@@ -166,7 +159,7 @@ container {
     form {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        background: $backTre;
+        background: $highlight;
         width: 80%;
         margin: 5% 10%;
         padding: 4%;
@@ -203,7 +196,7 @@ container {
         textarea:focus,
         textarea:valid {
             padding: 10px;
-            color: $backMain;
+            color: $textMain;
             background: $backTwo;
             margin: 10px;
             border-radius: 4px;
@@ -214,7 +207,7 @@ container {
             position: absolute;
             top: 0;
             left: 0;
-            color: $backMain;
+            color: $textMain;
             font-size: $font;
             font-weight: bold;
             padding: 10px;
@@ -261,9 +254,9 @@ container {
             outline: none;
             font-weight: 400;
             letter-spacing: 4px;
-            border: 1px solid $backMain;
+            border: 1px solid $extra;
             border-radius: 4px;
-            color: $backMain;
+            color: $textMain;
             text-transform: uppercase;
             padding: 5px;
             margin: 8% 4% 4% 4%;
@@ -287,10 +280,10 @@ container {
     margin: $half_marg;
 
     h2,
-    p,
-    a {
+    p {
         margin: $marg;
     }
+
 
     @media only screen and (min-width: 780px) {
         display: grid;
@@ -307,6 +300,26 @@ container {
             grid-column: 3;
         }
 
+        .comp_body_l {
+            grid-column: 1;
+        }
+    }
+}
+
+.comp_block_l {
+    margin: $half_marg;
+
+    h2,
+    p {
+        margin: $marg;
+    }
+
+    @media only screen and (min-width: 780px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+
         .img_l {
             grid-column: 2 / span 2;
             grid-row: 1 / span 2;
@@ -319,31 +332,5 @@ container {
         .comp_body_l {
             grid-column: 1;
         }
-    }
-}
-
-.comp_block_l {
-    margin: $half_marg;
-
-    h2,
-    p,
-    a {
-        margin: $marg;
-    }
-
-    @media only screen and (min-width: 780px) {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 5px;
-
-        .img_l {
-            grid-column: 2 / span 2;
-            grid-row: 1 / span 2;
-        }
-
-
-
-
     }
 }

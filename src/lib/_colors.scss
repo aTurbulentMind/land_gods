@@ -1,19 +1,19 @@
 //colors
 
-$textMain:#010401;
-$textTwo: hsl(50, 60%, 2%);
-$backMain:rgb(242, 246, 243);
-$backTwo:#5d2e15;
-$backTre:#41A825;
-$backHallow:#f5793656;
-$extra:#72F54E;
-$error:#eb1801;
-$grabber:#A8582D;
-$highlight:#302e9a;
+$textMain:hsl(220, 60%, 99%);
+$textTwo: hsl(228, 56%, 2%);
+$backMain:hsl(228, 71%, 1%);
+$backTwo:hsl(240, 48%, 6%);
+$backTre:hsl(245, 51%, 15%);
+$backHallow:hsla(207, 85%, 5%, 0.714);
+$extra:hsl(49, 75%, 38%);
+$error:hsl(304, 70%, 38%);
+$grabber:hsl(208, 70%, 34%);
+$highlight:hsl(272, 80%, 33%);
 
 
 
-$gradient:linear-gradient($backMain, hsl(130, 49%, 69%), $backTre);
+$gradient:linear-gradient(hsl(48, 100%, 1%), hsl(38, 100%, 6%), hsl(208, 94%, 13%));
 $gradientFlip:linear-gradient(0deg, hsl(34, 100%, 1%), hsl(38, 100%, 6%), hsl(137, 97%, 11%));
 
 //color palette// theme colors

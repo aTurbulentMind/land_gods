@@ -15,12 +15,12 @@ $half_marg:15% 8%;
 
 // borders
 $thick: 1px !default;
-$rad: 3px !default;
-$bord: 1px solid $backTwo;
+$rad: 10px !default;
+$bord: 1px dotted $extra;
 
 // shadow
 $box-shadow: 1px 3px -5px hsl(40, 20%, 3%) !default;
-$mainShadow:2px 2px 12px 2px #07000054;
+$mainShadow:0 0 8px 2px #856b1554;
 $text_shadow:2px 2px 2px $backMain;
 
 //opacity
@@ -38,7 +38,7 @@ $f-xxl: 3rem !default;
 $f-xxxl: 5rem !default;
 
 //font stack
-$mainFont:'Poppins',
+$mainFont:'M PLUS Rounded 1c',
 sans-serif;
 $secondaryFont: 'Rubik',
 sans-serif;

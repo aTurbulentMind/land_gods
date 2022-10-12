@@ -1,10 +1,8 @@
 <div class="footer">
-	<h1>Land<br /> Gods</h1>
+	<h1>L<br> L<br> D</h1>
 	<footBox>
-		<ul
-			style="grid-row: 2;
-						grid-column: 2;"
-		>
+		<ul style="grid-row: 2;
+						grid-column: 2;">
 			<li><a href="/">HOME</a></li>
 			<li><a href="/">CALL</a></li>
 			<li><a href="/contact/">CONTACT</a></li>
@@ -12,12 +10,10 @@
 		</ul>
 	</footBox>
 	<footBox>
-		<ul
-			style="grid-row: 2;
-						grid-column: 2;"
-		>
-			<li><a href="/testim/">REVIEWS</a></li>
-			<li><a href="/gallery/">GALLERY</a></li>
+		<ul style="grid-row: 2;
+						grid-column: 2;">
+			<li><a href="/showroom/">REVIEWS</a></li>
+			<li><a href="/about/">ABOUT</a></li>
 		</ul>
 	</footBox>
 	<footBox>
@@ -44,13 +40,14 @@
 	.footer {
 		display: grid;
 		background: $gradient;
+		margin-bottom: $marg_xxxl;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
 		z-index: 10;
 		position: relative;
 
 		footBox {
-			margin: 8% -5% 0 0;
+			margin: 8% 0 0 0;
 			h1 {
 				display: grid;
 				grid-row: 1;
@@ -63,12 +60,13 @@
 			ul {
 				display: grid;
 				position: relative;
-				margin: 5% 0 -8% 10%;
+				margin: 5% 3% -8% 10%;
 				list-style: none;
 
 				li {
 					margin: $marg;
 					padding: $pad_sm;
+					
 
 					a {
 						color: $textMain;
@@ -85,7 +83,7 @@
 					padding: $marg;
 					width: 10%;
 
-					&:hover {
+					&:hover{
 						@include butts;
 					}
 				}
@@ -94,9 +92,10 @@
 	}
 
 	@media (min-width: 780px) {
-		//foots
-		.footer {
-			margin: 0;
-		}
-	}
+
+    //foots
+    .footer {
+        margin-bottom: -8%;
+    }
+}
 </style>
