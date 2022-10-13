@@ -36,6 +36,10 @@
 			>
 		</socBox>
 	</footBox>
+
+	<p class="made_by">
+		Produced by <a href="https://www.lanternlightdevelopment.com//"> Lantern Light Development</a>
+	</p>
 </div>
 
 <style lang="scss">
@@ -90,6 +94,13 @@
 					}
 				}
 			}
+		}
+
+		.made_by {
+			position: absolute;
+			bottom: 20px;
+			right: 15%;
+			margin: 0;
 		}
 	}
 
