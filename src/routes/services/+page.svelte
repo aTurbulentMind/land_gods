@@ -12,7 +12,7 @@
 	<!--Completed work-->
 	<!--card-->
 	<div class="comp_block">
-		<img src="img/orangplosion.png" alt="" />
+		<img src="img/seven.jpg" alt="" />
 		<div class="comp_title"><h2>Yards</h2></div>
 
 		<div class="comp_body">
@@ -25,7 +25,7 @@
 
 	<!--card-->
 	<div class="comp_block_l">
-		<img class="img_l" src="img/orangplosion.png" alt="" />
+		<img class="img_l" src="img/five.jpg" alt="" />
 		<div class="comp_title_l"><h2>Driveways</h2></div>
 
 		<div class="comp_body_l">
@@ -38,7 +38,7 @@
 
 	<!--card-->
 	<div class="comp_block">
-		<img src="img/orangplosion.png" alt="" />
+		<img src="img/three.jpg" alt="" />
 		<div class="comp_title"><h2>Easments</h2></div>
 
 		<div class="comp_body">
@@ -51,7 +51,7 @@
 
 	<!--card-->
 	<div class="comp_block_l">
-		<img class="img_l" src="img/orangplosion.png" alt="" />
+		<img class="img_l" src="img/two.jpg" alt="" />
 		<div class="comp_title_l"><h2>Your moms house</h2></div>
 
 		<div class="comp_body_l">
@@ -69,6 +69,12 @@
 	@import '../src/lib/basecamp';
 
 	@media only screen and (min-width: 740px) {
+		.comp_block,
+		.comp_block_l {
+			img {
+				height: 85vh;
+			}
+		}
 	}
 
 	@media only screen and (min-width: 980px) {

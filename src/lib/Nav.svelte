@@ -1,6 +1,6 @@
 <nav>
 	<ul>
-		<li><a class="h_home" href="/">HOME</a></li>
+		<li><a class="h_home butt" href="/">HOME</a></li>
 		<li>
 			<a href="/"
 				><svg class="mower" viewBox="0 0 726 432" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,10 +54,10 @@
 				</svg></a
 			>
 		</li>
-		<li><a href="/testim/">REVIEWS</a></li>
-		<li><a href="/contact/">CONTACT</a></li>
-		<li><a href="/services/">SERVICES</a></li>
-		<li><a href="/gallery/">GALLERY</a></li>
+		<li><a class="butt" href="/testim/">REVIEWS</a></li>
+		<li><a class="butt" href="/contact/">CONTACT</a></li>
+		<li><a class="butt" href="/services/">SERVICES</a></li>
+		<li><a class="butt" href="/gallery/">GALLERY</a></li>
 	</ul>
 
 	<svg viewBox="0 0 1229 211" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -84,9 +84,12 @@
 			display: inline-block;
 			position: fixed;
 			z-index: 925;
-			margin: 20px 20px 5px 40px;
 			border-radius: $rad;
-			background: $backMain;
+
+			.butt {
+				margin: 0;
+				padding: 0;
+			}
 		}
 
 		li {
@@ -114,7 +117,7 @@
 		.mower {
 			width: 25vw;
 			z-index: 999;
-			margin-bottom: 24px;
+			margin-bottom: 20px;
 			transform: rotateY(180deg);
 		}
 	}
